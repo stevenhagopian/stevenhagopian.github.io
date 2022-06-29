@@ -82,6 +82,45 @@
 
 }
 
+:root.darker {
+  --bg-color: radial-gradient(circle, #2d094e 0%, #0b0733 45%, #3c103d 75%, #50143e 100%);
+  --card-color: linear-gradient(
+    to top,
+    rgb(40, 40, 40),
+    rgb(59, 36, 119)
+  );
+  --card-hover: linear-gradient(
+    to top,
+    rgb(20, 20, 20),
+    rgb(56, 30, 129)
+  );
+  --text-color: #000000;
+  --text-color2: white;
+  
+  --box-shadow:
+    5px 5px 15px rgba(0,0,0,0.9),
+    0 0 20px rgba(255, 255, 255, 0.445),
+    20px 0 80px rgba(255, 0, 255, 0.445),
+    -20px 0 80px rgba(0, 255, 255, 0.445),
+    inset 0 0 50px rgba(255, 255, 255, 0.445),
+    inset -50px 0 80px rgba(255, 0, 255, 0.445),
+    inset 50px 0 80px rgba(0, 255, 255, 0.445),
+    inset -50px 0 300px rgba(255, 0, 255, 0.445),
+    inset 50px 0 300px rgba(0, 255, 255, 0.445);
+
+  --box-shadow2:
+    5px 5px 15px rgba(0,0,0,0.9),
+    0 0 20px rgba(255, 255, 255, 0.745),
+    20px 0 80px rgba(255, 0, 255, 0.745),
+    -20px 0 80px rgba(0, 255, 255, 0.745),
+    inset 0 0 50px rgba(255, 255, 255, 0.745),
+    inset -50px 0 80px rgba(255, 0, 255, 0.745),
+    inset 50px 0 80px rgba(0, 255, 255, 0.745),
+    inset -50px 0 300px rgba(255, 0, 255, 0.745),
+    inset 50px 0 300px rgba(0, 255, 255, 0.745);
+
+}
+
 body {
   width: 100vw;
   height: 100vh;
